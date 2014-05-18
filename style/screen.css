@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'convergenceregular';
+  src: url("fonts/convergence-regular-webfont.eot");
+  src: url("fonts/convergence-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/convergence-regular-webfont.woff") format("woff"), url("fonts/convergence-regular-webfont.ttf") format("truetype"), url("fonts/convergence-regular-webfont.svg#convergenceregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.list {
+    /* background: #f7d325; */
+    /* background: black; */
+    /* background: white; */
+}
+strong,
+.caption,
+#Cover h2,
+.cover h2 {
+    /* color: #3C3D40; */
+    color: #f7d325;
+}
+.caption p {
+    color: white;
+}
+
+#Cover h2 {
+    margin:30px 0 0;
+    color:#f7d325;
+    text-align:center;
+    font-size:90px;
+    }
+#Cover p {
+    margin:10px 0 0;
+    text-align:center;
+    color:#FFF;
+    font-style:italic;
+    font-size:20px;
+}
+#Cover p a {
+    color:#FFF;
+}
+
+
+.slide {
+    background: black;
+      background: #050607;
+  /* background: -moz-radial-gradient(center, circle cover, #272a2d 0%, #050607 100%); */
+  /* background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #272a2d), color-stop(100%, #050607)); */
+  /* background: -webkit-radial-gradient(center, circle cover, #272a2d 0%, #050607 100%); */
+  /* background: -o-radial-gradient(center, circle cover, #272a2d 0%, #050607 100%); */
+  /* background: -ms-radial-gradient(center, circle cover, #272a2d 0%, #050607 100%); */
+  /* background: radial-gradient(center, circle cover, #272a2d 0%, #050607 100%); */
+    color: white;
+}
+.slide h2 {
+    color: #f7d325;
+  font-family: "convergenceregular", Impact, sans-serif;
+  line-height: 1.1em;
+  letter-spacing: 0.02em;
+  /*text-transform: uppercase;*/
+  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); 
+
+}
+.slide.center {
+    text-align: center;
+}
+a.empty {
+    background: none;
+}
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
+.slide.shout h2 {
+    font-size: 70px;
+}
+.slide:after {
+    display: none;
+}
+
+.cover-img h2 {
+    background-color: rgba(0, 0, 0, 0.5);;
+    color:#FFF;
+    padding: 10px 40px 10px 50px;
+    position: absolute;
+    text-align: right;
+    top: 120px;
+    left: 0;
+    width: 934px;
+    font-size:50px;
+}
